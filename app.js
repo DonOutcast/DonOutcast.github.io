@@ -20,7 +20,7 @@ btn1.addEventListener("click", function(){
 	}
 	else {
 		tg.MainButton.setText("Посмотреть информацию о переговорных!");
-		item = "1";
+		item = "Переговорные";
 		tg.MainButton.show();
 	}
 });
