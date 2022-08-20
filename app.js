@@ -15,9 +15,9 @@ let btn4 = document.getElementById("btn4");
 // let btn6 = document.getElementById("btn6");
 
 var current = 0;
-btn1.querySelector("#rotate-button").addEventListener("click", function(){
+document.querySelector("#rotate-button").addEventListener("click", function(){
     current += 90
-	btn1.querySelector("#rotate-button").style.transform = 'rotate(' + current + 'deg)'
+	document.querySelector("#rotate-button").style.transform = 'rotate(' + current + 'deg)'
     if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
