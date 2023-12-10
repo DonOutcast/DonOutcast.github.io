@@ -19,7 +19,7 @@ btn1.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Выбрали Charizard!");
+		tg.MainButton.setText("Выбрать Charizard?");
 		item = "Charizard";
 		tg.MainButton.show();
 	}
@@ -30,7 +30,7 @@ btn2.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Выбрали Vensasaur!");
+		tg.MainButton.setText("Выбрать Vensasaur?");
 		item = "Vensasaur";
 		tg.MainButton.show();
 	}
@@ -41,7 +41,7 @@ btn3.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Выбрали Snorlax!");
+		tg.MainButton.setText("Выбрать Snorlax?");
 		item = "Snorlax";
 		tg.MainButton.show();
 	}
@@ -52,7 +52,7 @@ btn4.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Выбрали Blastoise!");
+		tg.MainButton.setText("Выбрать Blastoise?");
 		item = "Blastoise";
 		tg.MainButton.show();
 	}
@@ -64,7 +64,7 @@ btn5.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Выбрали Gyarados!");
+		tg.MainButton.setText("Выбрать Gyarados?");
 		item = "Gyarados";
 		tg.MainButton.show();
 	}
@@ -75,7 +75,7 @@ btn5.addEventListener("click", function(){
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Выбрали Vaporeon!!");
+		tg.MainButton.setText("Выбрать Vaporeon?");
 		item = "Vaporeon";
 		tg.MainButton.show();
 	}
